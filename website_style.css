@@ -1,0 +1,175 @@
+@font-face{
+  font-family: 'ChosenceB';
+  src: url(fonts/Chosence_Bold.otf) format('truetype');
+}
+
+@font-face{
+  font-family: 'ChosenceR';
+  src: url(fonts/Chosence_Regular.otf) format('truetype');
+}
+
+@font-face{
+  font-family: 'ChosenceI';
+  src: url(fonts/Chosence_Regular_Italic.otf) format('truetype');
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
+  background-color: black;
+  font-family: 'ChosenceR', sans-serif;
+}
+
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px 50px;
+  box-sizing: border-box;
+}
+
+
+#topbar, #about-me, #experience, #bottombar {
+  background-color: #032c8c;
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'ChosenceB', sans-serif;
+  letter-spacing: 2.5px;
+  border: 2px solid white;
+}
+
+#experience {
+  padding: 30px;
+  margin-top: 20px;
+  letter-spacing: 1.5px;
+  align-items: left;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#sr_icon {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+#sr_icon img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+#NameTitle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.5em;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: black;
+}
+
+#about-me {
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;          
+  justify-content: flex-start; 
+  text-align: center;
+  height: 27vh;
+  padding-top: 0px;        
+}
+
+#about-me h1 {
+  text-decoration: underline;
+  margin-bottom: 20px;
+  margin-top: 0; 
+}
+
+#about-me p{
+  font-size: 0.75em;
+  font-family: 'ChosenceI',sans-serif;
+}
+
+
+
+#experience h1 {
+  font-size: 2em;
+  letter-spacing: 7px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#programming {
+  align-self: flex-start;
+  text-align: left;
+  width: 100%;
+}
+
+
+
+#programming h2 {
+  font-size: 1.25em;
+  margin-bottom: 10px;
+}
+
+.p-languages {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  gap: 15px;
+}
+
+.p-languages li {
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+  font-family: 'ChosenceR', sans-serif;
+  gap: 10px;
+  padding-left: 5px;
+}
+
+
+
+.p-languages img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
+
+#bottombar {
+  font-size: 1em;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'ChosenceR', sans-serif;
+  padding: 20px;
+  border-radius: 20px;
+}
