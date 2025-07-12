@@ -103,6 +103,7 @@ html, body {
   text-decoration: underline;
   margin-bottom: 20px;
   margin-top: 0; 
+  font-size: 1.75em;
 }
 
 #about-me p{
@@ -113,11 +114,25 @@ html, body {
 
 
 #experience h1 {
-  font-size: 2em;
+  font-size: 2.5em;
   letter-spacing: 7px;
-  margin-bottom: 10px;
+  margin-top: 0%;
+  margin-bottom: 3%;
   text-align: center;
   text-decoration: underline;
+}
+
+#exp-sections {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+#programming, #employment {
+  flex: 1;
+  min-width: 300px;
 }
 
 #programming {
@@ -126,9 +141,7 @@ html, body {
   width: 100%;
 }
 
-
-
-#programming h2 {
+#programming h2,#employment h2 {
   font-size: 1.25em;
   margin-bottom: 10px;
 }
