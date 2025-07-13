@@ -101,7 +101,7 @@ html, body {
 }
 
 #about-me p {
-  font-size: clamp(0.75rem, 1.5vw, 1rem);
+  font-size: clamp(1.15rem, 2vw, 1rem);
   font-family: 'ChosenceI', sans-serif;
 }
 
